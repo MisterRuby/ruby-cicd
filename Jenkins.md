@@ -37,10 +37,16 @@
 3. Item 추가 설정
    ![img_2.png](img/jenkins/item-3.png)
 
-### Jenkins - Github 연동
+### Jenkins - Github Build 연동
 1. 생성된 Item - 구성 - 소스 코드 관리의 - Git 에서 빌드할 프로젝트를 Pull 하기 위한 설정
    ![img.png](img/jenkins/github-1.png)
 2. 빌드 유발
    ![img.png](img/jenkins/github-2.png)
 3. 설정 저장 후 빌드 실행
    ![img.png](img/jenkins/github-3.png)
+
+### Poll SCM 설정
+- Poll SCM
+  - 특정한 시간에 프로젝트를 빌드를 하도록 설정하는 기능
+  - 지정한 시간 또는 주기마다 코드 변경을 확인하여 변경된 부분이 있을 경우 코드를 업데이트 하여 자동으로 빌드
+  ![img.png](img/jenkins/pollScm.png)*매분마다 Github 로부터 변경된 부분을 확인하여 코드를 업데이트 및 빌드한다.*
