@@ -11,3 +11,6 @@
 - 브랜치의 중요성에 따라 자동 배포를 하지 않는 경우도 있음
     - Develop 브랜치는 CI / CD 를 수행
     - Production 브랜치는 CI 까지만 수행하고 QA 를 거친 후에 수동 배포
+
+## CI/CD 흐름도
+![img_1.png](img/cicd/cicd.png)
